@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59583F7B6A214BB73708C301 /* libPods-DJIRemoteLoggerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9948A234A5BCF20263B6D48F /* libPods-DJIRemoteLoggerDemo.a */; };
 		A4DDBA001C0F445800B0D2D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DDB9FF1C0F445800B0D2D5 /* main.m */; };
 		A4DDBA031C0F445800B0D2D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DDBA021C0F445800B0D2D5 /* AppDelegate.m */; };
 		A4DDBA061C0F445800B0D2D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DDBA051C0F445800B0D2D5 /* ViewController.m */; };
@@ -14,11 +15,6 @@
 		A4DDBA0B1C0F445800B0D2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4DDBA0A1C0F445800B0D2D5 /* Assets.xcassets */; };
 		A4DDBA0E1C0F445800B0D2D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DDBA0C1C0F445800B0D2D5 /* LaunchScreen.storyboard */; };
 		A4DDBA191C0F445800B0D2D5 /* DJIRemoteLoggerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DDBA181C0F445800B0D2D5 /* DJIRemoteLoggerDemoTests.m */; };
-		A4DDBA271C0F456900B0D2D5 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DDBA261C0F456900B0D2D5 /* libstdc++.6.0.9.tbd */; };
-		A4DDBA291C0F457100B0D2D5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DDBA281C0F457100B0D2D5 /* libz.tbd */; };
-		A4DDBA351C0F4B8200B0D2D5 /* DJISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DDBA341C0F4B8200B0D2D5 /* DJISDK.framework */; };
-		A4DDBA361C0F4B8700B0D2D5 /* DJISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DDBA341C0F4B8200B0D2D5 /* DJISDK.framework */; };
-		A4DDBA371C0F4B8700B0D2D5 /* DJISDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4DDBA341C0F4B8200B0D2D5 /* DJISDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +34,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A4DDBA371C0F4B8700B0D2D5 /* DJISDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +41,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6B134ED4AAA75E2CFB953E6C /* Pods-DJIRemoteLoggerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJIRemoteLoggerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJIRemoteLoggerDemo/Pods-DJIRemoteLoggerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9948A234A5BCF20263B6D48F /* libPods-DJIRemoteLoggerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJIRemoteLoggerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DDB9FB1C0F445800B0D2D5 /* DJIRemoteLoggerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJIRemoteLoggerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DDB9FF1C0F445800B0D2D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4DDBA011C0F445800B0D2D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,9 +56,7 @@
 		A4DDBA141C0F445800B0D2D5 /* DJIRemoteLoggerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJIRemoteLoggerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DDBA181C0F445800B0D2D5 /* DJIRemoteLoggerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJIRemoteLoggerDemoTests.m; sourceTree = "<group>"; };
 		A4DDBA1A1C0F445800B0D2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4DDBA261C0F456900B0D2D5 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
-		A4DDBA281C0F457100B0D2D5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		A4DDBA341C0F4B8200B0D2D5 /* DJISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DJISDK.framework; path = DJIRemoteLoggerDemo/DJISDK.framework; sourceTree = "<group>"; };
+		F30502EC4DC6703BAB1116DD /* Pods-DJIRemoteLoggerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJIRemoteLoggerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJIRemoteLoggerDemo/Pods-DJIRemoteLoggerDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4DDBA351C0F4B8200B0D2D5 /* DJISDK.framework in Frameworks */,
-				A4DDBA361C0F4B8700B0D2D5 /* DJISDK.framework in Frameworks */,
-				A4DDBA291C0F457100B0D2D5 /* libz.tbd in Frameworks */,
-				A4DDBA271C0F456900B0D2D5 /* libstdc++.6.0.9.tbd in Frameworks */,
+				59583F7B6A214BB73708C301 /* libPods-DJIRemoteLoggerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +85,7 @@
 				A4DDBA231C0F453000B0D2D5 /* Frameworks */,
 				A4DDBA171C0F445800B0D2D5 /* DJIRemoteLoggerDemoTests */,
 				A4DDB9FC1C0F445800B0D2D5 /* Products */,
+				C716ADFB4F06D8CBB36C2273 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,11 +134,18 @@
 		A4DDBA231C0F453000B0D2D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A4DDBA341C0F4B8200B0D2D5 /* DJISDK.framework */,
-				A4DDBA281C0F457100B0D2D5 /* libz.tbd */,
-				A4DDBA261C0F456900B0D2D5 /* libstdc++.6.0.9.tbd */,
+				9948A234A5BCF20263B6D48F /* libPods-DJIRemoteLoggerDemo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C716ADFB4F06D8CBB36C2273 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B134ED4AAA75E2CFB953E6C /* Pods-DJIRemoteLoggerDemo.debug.xcconfig */,
+				F30502EC4DC6703BAB1116DD /* Pods-DJIRemoteLoggerDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,10 +155,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4DDBA1D1C0F445800B0D2D5 /* Build configuration list for PBXNativeTarget "DJIRemoteLoggerDemo" */;
 			buildPhases = (
+				C42BE4910C12BCA1CC8852F8 /* [CP] Check Pods Manifest.lock */,
 				A4DDB9F71C0F445800B0D2D5 /* Sources */,
 				A4DDB9F81C0F445800B0D2D5 /* Frameworks */,
 				A4DDB9F91C0F445800B0D2D5 /* Resources */,
 				A4DDBA331C0F4A8400B0D2D5 /* Embed Frameworks */,
+				454A6D2C06AFE0ACF1FC8B79 /* [CP] Embed Pods Frameworks */,
+				90AF236D3AB14BF271485343 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +201,7 @@
 				TargetAttributes = {
 					A4DDB9FA1C0F445800B0D2D5 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 7UL3LRJL93;
 					};
 					A4DDBA131C0F445800B0D2D5 = {
 						CreatedOnToolsVersion = 7.1;
@@ -243,6 +247,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		454A6D2C06AFE0ACF1FC8B79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJIRemoteLoggerDemo/Pods-DJIRemoteLoggerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90AF236D3AB14BF271485343 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJIRemoteLoggerDemo/Pods-DJIRemoteLoggerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C42BE4910C12BCA1CC8852F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A4DDB9F71C0F445800B0D2D5 /* Sources */ = {
@@ -377,13 +429,11 @@
 		};
 		A4DDBA1E1C0F445800B0D2D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B134ED4AAA75E2CFB953E6C /* Pods-DJIRemoteLoggerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/DJIRemoteLoggerDemo",
-				);
+				DEVELOPMENT_TEAM = 7UL3LRJL93;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = DJIRemoteLoggerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dji.RemoteLoggerDemo;
@@ -393,13 +443,11 @@
 		};
 		A4DDBA1F1C0F445800B0D2D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30502EC4DC6703BAB1116DD /* Pods-DJIRemoteLoggerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/DJIRemoteLoggerDemo",
-				);
+				DEVELOPMENT_TEAM = 7UL3LRJL93;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = DJIRemoteLoggerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dji.RemoteLoggerDemo;
@@ -450,6 +498,7 @@
 				A4DDBA1F1C0F445800B0D2D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4DDBA201C0F445800B0D2D5 /* Build configuration list for PBXNativeTarget "DJIRemoteLoggerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +507,7 @@
 				A4DDBA221C0F445800B0D2D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
