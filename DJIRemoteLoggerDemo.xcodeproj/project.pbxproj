@@ -201,7 +201,6 @@
 				TargetAttributes = {
 					A4DDB9FA1C0F445800B0D2D5 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 7UL3LRJL93;
 					};
 					A4DDBA131C0F445800B0D2D5 = {
 						CreatedOnToolsVersion = 7.1;
@@ -432,7 +431,7 @@
 			baseConfigurationReference = 6B134ED4AAA75E2CFB953E6C /* Pods-DJIRemoteLoggerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7UL3LRJL93;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = DJIRemoteLoggerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -446,7 +445,7 @@
 			baseConfigurationReference = F30502EC4DC6703BAB1116DD /* Pods-DJIRemoteLoggerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7UL3LRJL93;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = DJIRemoteLoggerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
