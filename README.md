@@ -1,5 +1,7 @@
 # iOS-DJIRemoteLoggerDemo
 
+> **Note: This Sample Project is developed based on iOS SDK v3.5.1, an update version for iOS SDK v4.0 will be published soon.**
+
 ## Introduction
 
 This DJIRemoteLoggerDemo is designed for you to gain a better understanding of the DJI Remote Logger Tool. It will teach you how to use it for showing application log messages on a simple webpage.
